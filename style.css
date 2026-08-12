@@ -1,22 +1,22 @@
 body {
     background-color: #3d0064;
-    color:#ad5cff
+    color:#ad5cff;
     font-family: arail, sans-serif;
 }
 
 header {
     background-color:#a69eff ;
-    color:#785cff
+    color:#785cff;
     text-align: center;
     padding: 30px;
 }
 
 h1 {
-    fort-size: 36px;
+    font-size: 36px;
 }
 
 h2 {
-    color:#ad5cff
+    color:#ad5cff;
 }
 
 p {
@@ -25,26 +25,26 @@ p {
 }
 
     main {
-        width: 80%
+        width: 80%;
         margin:auto;
 
     }
     section {
         background-color: #a69eff;
-        margin:20px 0;
+        margin:20px;
         padding:20px;
         border-radius:12px;
     }
     img {
-        width:100%
+        width:100%;
         max-width:600px;
         display: block;
         margin:auto;
         border-radius:12px;
     }
     figcaption {
-        text-align:center
+        text-align:center;
         font-size:14px;
-        color:#55555;
+        color:#555555;
         margin-top:8px;
     }
