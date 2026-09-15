@@ -8,9 +8,8 @@ function curtir(){
         contador.textContent++;
         curtiu = true;}
         else {
-            con.textContent
-            curtiu--;
+            con.textContent--;
+            curtiu = false
         }
-}
-)
+});
 
