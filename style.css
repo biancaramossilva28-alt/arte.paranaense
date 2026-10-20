@@ -1,27 +1,35 @@
+:root{
+    --cor-fundo:#f4f1ea;
+    --cor-texto:#22222;
+    --cor-principal:# ;
+    --cor-secundaria:# ;
+    --cor-houver:# ;
+    --cor-superficie:# ;
+    --cor-card:# ;
+    --cor-legenda:# ;
+    --cor-clara:# ; 
+    --cor-rodape:# ;
+}
+
 body {
-    background-color: #3d0064;
-    color: #ad5cff;
+    background-color:var(--cor-principal);
+    color:var(--cor-texto);
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #8e1ceb;
-    color: #eae8ec;
+    background-color:var(--cor-principal);
+    color:var(--cor-texto);
     text-align: center;
     padding: 30px;
 }
 
-h1 {
-    font-size: 36px;
-}
+nav a{
+    color: var(--corclara);
+    text-decoration: nane;
+    background-color:var(--cor-secundaria);
 
-h2 {
-    color: #a200ff;
-}
 
-p {
-    font-size: 18px;
-    line-height: 1.6;
 }
 
 main {
@@ -31,7 +39,7 @@ main {
 }
 
 section {
-    background-color: #ffffff;
+    background-color:var(--cor-);
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
@@ -48,11 +56,11 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color:var(--cor-legenda);
     margin-top: 8px;
 }
 button{
-    background-color: #3d0064;
+    background-color:var(--cor-card);
     color: #eae8ec;
     padding: 10px 15px;
     border-radius: 8px;
