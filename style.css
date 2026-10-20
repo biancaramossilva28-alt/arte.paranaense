@@ -60,8 +60,8 @@ figcaption {
     margin-top: 8px;
 }
 button{
-    background-color:var(--cor-card);
-    color: #eae8ec;
+    background-color:var(--cor-principal);
+    color:var(--cor-clara);
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
