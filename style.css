@@ -2,26 +2,17 @@
     --cor-fundo:#f4f1ea;
     --cor-texto:#222222;
     --cor-principal:#6b2d5c;
-    --cor-secundaria:#9b4d83;
-    --cor-houver:#c77dff;
     --cor-superficie:#ffff ;
     --cor-card:#f3d9fa;
-    --cor-legenda:#5555;
-    --cor-clara:#ffff; 
-    --cor-rodape:#222222;
 }
 
 .tema-escuro {
      --cor-fundo:#f4f1ea;
     --cor-texto:#222222;
     --cor-principal:#2b0421;
-    --cor-secundaria:#9b4d83;
-    --cor-houver:#c77dff;
     --cor-superficie:#ffff ;
     --cor-card:#f3d9fa;
-    --cor-legenda:#5555;
-    --cor-clara:#ffff; 
-    --cor-rodape:#222222;
+   
 }
 
 
