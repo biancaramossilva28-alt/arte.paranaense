@@ -11,6 +11,20 @@
     --cor-rodape:#222222;
 }
 
+.tema-escuro {
+     --cor-fundo:#f4f1ea;
+    --cor-texto:#222222;
+    --cor-principal:#2b0421;
+    --cor-secundaria:#9b4d83;
+    --cor-houver:#c77dff;
+    --cor-superficie:#ffff ;
+    --cor-card:#f3d9fa;
+    --cor-legenda:#5555;
+    --cor-clara:#ffff; 
+    --cor-rodape:#222222;
+}
+
+
 body {
     background-color:var(--cor-principal);
     color:var(--cor-texto);
@@ -70,3 +84,26 @@ button{
 button:hover{
     background-color: #8e1ceb;
 }
+
+.galeria{
+    display: flex;
+    gap: 20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.cards-curiosidades {
+display:flex;
+gap: 20px;
+flex-wrap:wrap;
+}
+
+.btn-tema {
+    position:fixed;
+    right: 20px;
+    bottom: 20px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    font-size:22px;
+}   
